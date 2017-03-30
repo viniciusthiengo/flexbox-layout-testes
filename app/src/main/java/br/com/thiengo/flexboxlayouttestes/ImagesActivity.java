@@ -2,6 +2,7 @@ package br.com.thiengo.flexboxlayouttestes;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.RecyclerView;
 
 import com.google.android.flexbox.AlignItems;
@@ -29,9 +30,9 @@ public class ImagesActivity extends AppCompatActivity {
         rvFilmes.setLayoutManager( layoutManager );*/
 
         FlexboxLayoutManager layoutManager = new FlexboxLayoutManager();
-        layoutManager.setFlexWrap(FlexWrap.WRAP);
-        layoutManager.setFlexDirection(FlexDirection.COLUMN);
-        layoutManager.setAlignItems(AlignItems.STRETCH);
+        layoutManager.setFlexWrap( FlexWrap.WRAP );
+        layoutManager.setAlignItems( AlignItems.STRETCH );
+        layoutManager.setFlexDirection( FlexDirection.ROW );
         rvFilmes.setLayoutManager( layoutManager );
 
         ImagesAdapter adapter = new ImagesAdapter( this, getImages() );

@@ -9,7 +9,6 @@ import android.widget.ImageView;
 
 import com.google.android.flexbox.FlexboxLayoutManager;
 import com.squareup.picasso.Picasso;
-
 import java.util.ArrayList;
 
 
