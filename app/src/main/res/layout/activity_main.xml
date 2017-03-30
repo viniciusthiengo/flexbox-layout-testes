@@ -4,13 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    app:alignContent="space_around"
-    app:alignItems="stretch"
-    app:dividerDrawable="@drawable/linha"
-    app:flexDirection="row"
     app:flexWrap="wrap"
-    app:justifyContent="flex_start"
-    app:showDivider="beginning|end|middle"
+    app:flexDirection="column"
+    app:showDivider="beginning|middle|end"
+    app:dividerDrawable="@drawable/linha"
     tools:context="br.com.thiengo.flexboxlayouttestes.MainActivity">
 
     <TextView
@@ -32,6 +29,7 @@
         android:textSize="20sp" />
 
     <TextView
+        app:layout_wrapBefore="true"
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:background="#ffa100"

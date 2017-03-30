@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:dividerDrawable="@drawable/linha"
+    app:flexDirection="column"
+    app:flexWrap="wrap"
+    app:showDivider="beginning|middle|end"
+    tools:context="br.com.thiengo.flexboxlayouttestes.EscolheTesteActivity">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
+        android:onClick="testeAtributos"
+        android:text="Atributos Flexbox" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:onClick="testeFlexboxLayoutManager"
+        android:text="FlexboxLayoutManager" />
+</LinearLayout>

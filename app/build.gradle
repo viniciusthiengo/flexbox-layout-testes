@@ -27,5 +27,13 @@ dependencies {
     compile 'com.android.support:appcompat-v7:25.3.0'
     testCompile 'junit:junit:4.12'
 
+    /* RECYCLERVIEW */
+    compile 'com.android.support:design:25.3.0'
+
+    /* CARREGAR IMAGENS REMOTAS */
+    compile 'com.squareup.picasso:picasso:2.5.2'
+
+    /* FLEXBOX */
     compile 'com.google.android:flexbox:0.2.6'
+    compile 'com.google.android:flexbox:0.3.0-alpha3'
 }
